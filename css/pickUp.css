@@ -1,0 +1,56 @@
+
+
+
+                                            /* 条形码 */
+.bar-code{
+    padding: 0 10px 10px;
+    border-bottom: 1px solid #f6f6f6;
+}
+.barcode-img{
+    text-align: center;
+    padding: 20px;
+}
+.barcode-img img{
+    width: 240px;
+}
+
+
+                                            /* 订单状态 */
+.order{
+    padding: 0 10px 10px;
+    border-bottom: 1px solid #f6f6f6;
+    /* overflow: hidden; */
+}
+
+.order-info{
+    overflow: hidden;
+    border-bottom: 1px solid #f6f6f6;
+}
+.order-info:last-child{
+    border-bottom: none;
+}
+.c-img{
+    float: left;
+    padding: 10px;
+    /* width: 12%; */
+    width: 20%;
+}
+.c-img img{
+    width: 100%;
+    border-radius: 6px;
+}
+.order-num{
+    float: right;
+    padding: 10px;
+    width: 70%;
+    padding-left: 0;
+}
+
+
+.order-num .num{
+    margin-bottom: 6px;
+}
+
+
+
+

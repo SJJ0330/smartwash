@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>smartwash</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/steps.css">
+
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/modal.js"></script>
+
+</head>
+<body>
+    <div class="main-container">
+        <!-- logo -->
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <!-- 小助手 -->
+        <div class="service" data-toggle="modal" id="aide">
+            <i class="iconfont">&#xe778;</i>
+        </div>
+        <!-- 模态框 -->
+        <div class="modal fade" id="show" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <!-- 第一层 -->
+                    <div class="first">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <div class="xzs-flex modal-title m-modal-title" id="myModalLabel">
+                                <span class="icon-xzs"></span>
+                                <span class="ml b-color">智柜小助手</span>
+                            </div>
+        
+                        </div>
+                        <div class="modal-body">
+                            <!-- Q & A -->
+                            <div class="s-row" data-a="a1">
+                                <div class="qa-flex">
+                                    <span class="icon-qa"></span>
+                                    <span class="b-color">Q&A</span>
+                                </div>
+                                <div class="s-arrow"></div>
+                            </div>
+                            <!-- 小助手电话 -->
+                            <div class="s-row" data-a="a2">
+                                <div class="qa-flex">
+                                    <span class="icon-ph"></span>
+                                    <span class="b-color">小助手电话</span>
+                                </div>
+                                <div class="s-arrow"></div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- 第二层 -->
+                    <!-- 问题 -->
+                    <div class="second second-level sm-hide" data-b="a1">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <div class="xzs-flex modal-title m-modal-title" id="myModalLabel">
+                                <span class="icon-qa"></span>
+                                <span class="b-color">Q&A</span>
+                            </div>
+                            <div class="sec m-arrow"></div>
+                        </div>
+                        <div class="modal-body">
+                            <div class="q-row" data-b="b1">
+                                <span class="b-color">1.智柜喜洗怎么用？</span>
+                                <div class="s-arrow"></div>
+                            </div>
+                            <div class="q-row" data-b="b2">
+                                <span class="b-color">2.智柜喜洗怎么用？</span>
+                                <div class="s-arrow"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 电话 -->
+                    <div class="second sm-hide" data-b="a2">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <div class="xzs-flex modal-title m-modal-title" id="myModalLabel">
+                                <span class="icon-qa"></span>
+                                <span class="b-color">Q&A</span>
+                            </div>
+                            <div class="sec m-arrow"></div>
+                        </div>
+                        <div class="modal-body">
+                            <div class="qs-row">
+                                <a href="tel:12121212121" class="b-color">小助手电话12121212121</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- 第三层 -->
+                    <!-- 答案1 -->
+                    <div class="third sm-hide" data-c="b1">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <div class="xzs-flex modal-title m-modal-title" id="myModalLabel">
+                                <span class="icon-qa"></span>
+                                <span class="b-color">Q&A</span>
+                            </div>
+                            <div class="thi m-arrow"></div>
+                        </div>
+                        <div class="modal-body">
+                            <div class="a-row">
+                                <span class="b-color">1.智柜喜洗怎么用？</span>
+                                <p class="answer g-color">智柜喜洗怎么用智柜喜洗怎么用智柜喜洗怎么用智柜喜洗怎么用智柜喜洗怎么用智柜喜洗怎么用智柜喜洗怎么用智柜喜洗怎么用智柜喜洗怎么用智柜喜洗怎么用智柜喜洗怎么用</p>
+                            </div>
+                        </div>
+                        <div class="evaluate">
+                            <p class="g-color">您对小助手的回答满意吗？</p>
+                            <a class="fl btn-r">不满意</a>
+                            <a class="fr btn-l">满意</a>
+        
+                        </div>
+                    </div>
+                    <!-- 答案2 -->
+                    <div class="third sm-hide" data-c="b2">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <div class="xzs-flex modal-title m-modal-title" id="myModalLabel">
+                                <span class="icon-qa"></span>
+                                <span class="b-color">Q&A</span>
+                            </div>
+                            <div class="thi m-arrow"></div>
+                        </div>
+                        <div class="modal-body">
+                            <div class="a-row">
+                                <span class="b-color">2.22222222222？</span>
+                                <p class="answer g-color">智柜喜洗怎么用智柜喜洗怎么用智柜喜洗怎么用智柜喜洗怎么用智柜喜洗怎么用智柜喜洗怎么用智柜喜洗怎么用智柜喜洗怎么用智柜喜洗怎么用智柜喜洗怎么用智柜喜洗怎么用</p>
+                            </div>
+                        </div>
+                        <div class="evaluate">
+                            <p class="g-color">您对小助手的回答满意吗？</p>
+                            <a class="fl btn-r">不满意</a>
+                            <a class="fr btn-l">满意</a>
+                        </div>
+                    </div>
+        
+        
+                </div>
+            </div>
+        </div>
+
+        <!-- 洗衣步骤 -->
+        <div class="wrapper">
+            <img src="img/step.png" alt="">
+        </div>
+        
+        
+        <div class="solog">
+            您身边最便捷的智能洗衣解决方案
+        </div>
+    </div>
+
+    
+</body>
+</html>

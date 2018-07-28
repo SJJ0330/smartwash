@@ -1,0 +1,46 @@
+
+.main-container{
+    height: 100%;
+}
+
+.wrapper{
+    padding: 0;
+    margin-top: 110px;
+}
+.wrapper img{
+    width: 100%;
+    border-radius: 6px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.intro{
+    margin-top: 15px;
+}
+.white{
+    font-size: 12px;
+    color: #fff;
+}
+.scan-btn{
+    margin-top: 30px;
+    text-align: center;
+}
+.scan{
+    padding: 8px 30px;
+    border-radius: 6px;
+    font-size: 12px;
+    color: #5b85f9;
+    background: #fff;
+}
+
+a, a:link,a:visited,a:hover,a:active{
+    color: #8daffb;
+}
+
+.solog{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -90px;
+}

@@ -1,0 +1,98 @@
+
+
+
+                                            /* 订单状态 */
+.order{
+    padding: 0 10px 10px;
+    border-bottom: 1px solid #f6f6f6;
+    overflow: hidden;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.order-info{
+    overflow: hidden;
+    border-bottom: 1px solid #f6f6f6;
+}
+.order-info:last-child{
+    border-bottom: none;
+}
+.c-img{
+    float: left;
+    padding: 10px;
+    /* width: 12%; */
+    width: 20%;
+}
+.c-img img{
+    width: 100%;
+    border-radius: 6px;
+}
+.order-num{
+    float: right;
+    padding: 10px;
+    width: 70%;
+    padding-left: 0;
+}
+.order-num .num{
+    margin-bottom: 6px;
+}
+
+                                            /* 价格结算 */
+.name{
+    padding: 0 10px 10px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.ma-ri{
+    margin-right: 20px;
+}
+
+.line-active{
+    color: #5b85f9;
+    padding-bottom: 9px;
+    border-bottom: 2px solid #5b85f9;
+}
+
+.ov-hi{
+    overflow: hidden;
+    height: 35px;
+    line-height: 35px;
+}
+
+.hide{
+    display: none;
+}
+.price{
+    padding: 10px;
+    border-bottom: 1px solid #f6f6f6;
+}
+.sum{
+    padding: 20px 10px;
+    overflow: hidden;
+}
+.pay{
+    color: #fff;
+    background: #5b85f9;
+    text-align: center;
+    margin: 30px 20px 10px;
+    padding: 10px 0;
+    border-radius: 6px;
+}
+.pay a,.pay a:link,.pay a:visited,.pay a:hover,.pay a:active{
+    color: #fff;
+    background: #5b85f9;
+}
+.cancel{
+    color: #5b85f9;
+    background: #fff;
+    text-align: center;
+    margin: 10px 20px;
+    padding: 10px 0;
+    border-radius: 6px;
+}
+.cancel a,.cancel a:link,.cancel a:visited,.cancel a:hover,.cancel a:active{
+    color: #5b85f9;
+}

@@ -1,0 +1,220 @@
+
+
+                                            /* 账号 */
+
+.account{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f6f6f6;
+    padding-bottom: 10px;
+}
+.account img{
+    margin: 0 10px;
+    width: 24px;
+    border-radius: 6px;
+}
+
+                                                /* 优惠券 */
+.coupon{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 20px 10px 0 10px;
+    border-bottom: 1px solid #f6f6f6;
+}
+.icon{
+    font-size: 24px;
+}
+.icon-yhj{
+    font-size: 25px;
+}
+.icon-jf{
+    font-size: 30px;
+}
+.c-icon{
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.number-ye{
+    position: absolute;
+    top: -13px;
+    left: 14px;
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #fff;
+    background: #ff905f;
+    border-radius: 20px;
+    text-align: center;
+}
+.number-yhj{
+    position: absolute;
+    top: -12px;
+    left: 14px;
+    width: 32px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #fff;
+    background: #ff905f;
+    border-radius: 20px;
+    text-align: center;
+}
+.top-1{
+    margin-top: 5px;
+}
+
+.apply{
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid #f6f6f6;
+}
+.apply a:link,.apply a:visited,.apply a:hover,.apply a:active{
+    color: #8daffb;
+}
+.bind{
+    position: relative;
+    padding: 10px 10px 0 10px;
+}
+
+.bind a:link,.bind a:visited,.bind a:hover,.bind a:active{
+    color: #8daffb;
+}
+.apply a,.bind a{
+    display: block;
+}
+.arrow{
+    width: 5px;
+    height: 5px;
+    border-top: 1px solid #8daffb;
+    border-right: 1px solid #8daffb;
+    transform: rotate(45deg);
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 10px;
+}
+.newFunction{
+    text-align: center;
+}
+
+.mm-new{
+    height: 400px;
+}
+
+
+
+                                                            /* 订单状态 + 历史订单 */
+.order{
+    padding: 0 10px 10px;
+    border-bottom: 1px solid #f6f6f6;
+    overflow: hidden;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.order-info{
+    overflow: hidden;
+    border-bottom: 1px solid #f6f6f6;
+}
+.order-info:last-child{
+    border-bottom: none;
+}
+.c-img{
+    float: left;
+    padding: 10px;
+    width: 20%;
+}
+.c-img img{
+    width: 100%;
+    border-radius: 6px;
+}
+.order-num{
+    float: right;
+    padding: 10px;
+    width: 70%;
+    padding-left: 0;
+}
+.order-num .c-code{
+    margin-top: 6px;
+}
+
+.c-code .icon-code{
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+.order-num .num{
+    margin-bottom: 6px;
+}
+
+.c-code a:link,.c-code a:visited,.c-code a:hover,.c-code a:active{
+    color: #8daffb;
+}
+
+.order a:link,.order a:visited,.order a:hover,.order a:active{
+    color: #929cb2;
+}
+                                                            /* 立即体验 */
+.method{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+a.method,a.method:link,a.method:visited,a.method:hover,a.method:active{
+    color: #8daffb;
+}
+
+.icon-right{
+    margin-left: 10px;
+}
+
+.news{
+    /* padding: 10px 10px 0 10px; */
+    height: 146px;
+    background: #779ffa;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    overflow: -moz-scrollbars-none;/*firefox*/
+}
+
+/* .news::-webkit-scrollbar {display:none;} */
+
+.news::-webkit-scrollbar {/*chrome 和Safari*/
+    width: 0!important;
+    height: 0!important;
+    background-color: #779ffa!important;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    white-space: nowrap;
+}
+.news img{
+    width: 120px;
+    height: 125px;
+    margin-right: 5px;
+    border-radius: 6px;
+}
+
+
+.solog{
+    font-size: 12px;
+    text-align: center;
+    color: #98afff;
+    margin: 30px 0 20px 0;
+}

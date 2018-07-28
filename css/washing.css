@@ -1,0 +1,74 @@
+
+
+
+                                            /* 订单状态 */
+.order{
+    padding: 0 10px 10px;
+    border-bottom: 1px solid #f6f6f6;
+    overflow: hidden;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.order-info{
+    overflow: hidden;
+    border-bottom: 1px solid #f6f6f6;
+}
+.order-info:last-child{
+    border-bottom: none;
+}
+.c-img{
+    float: left;
+    padding: 10px;
+    /* width: 12%; */
+    width: 20%;
+}
+.c-img img{
+    width: 100%;
+    border-radius: 6px;
+}
+.order-num{
+    float: right;
+    padding: 10px;
+    width: 70%;
+    padding-left: 0;
+}
+.order-num .num{
+    margin-bottom: 6px;
+}
+
+                                            /* 洗衣门店 */
+.name{
+    padding: 0 10px 10px;
+    border-bottom: 1px solid #f6f6f6;
+    overflow: hidden;
+}
+
+.ma-ri{
+    margin-right: 20px;
+}
+
+
+
+.ov-hi{
+    overflow: hidden;
+    height: 35px;
+    line-height: 35px;
+}
+
+.hide{
+    display: none;
+}
+.price{
+    padding: 10px;
+    border-bottom: 1px solid #f6f6f6;
+}
+.sum{
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+
