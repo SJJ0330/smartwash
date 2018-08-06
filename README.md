@@ -44,8 +44,8 @@
    
    清洗中的订单内容为某一订单下正在清洗的衣物以及所选洗衣门店的付款信息。
    
-![](https://sjj0330.github.io/smartwash/readmeImg/qingxizhong1.png)
-![](https://sjj0330.github.io/smartwash/readmeImg/qingxizhong2.png)
+![](https://sjj0330.github.io/smartwash/readmeImg/qingxizhong 1.png)
+![](https://sjj0330.github.io/smartwash/readmeImg/qingxizhong 2.png)
 
    **7. 待取订单**
    
@@ -77,6 +77,7 @@
    点击Q&A，会出现用户可能会遇到的问题列表，继续点击任意问题，会有相应的解答。
    
 ![](https://sjj0330.github.io/smartwash/readmeImg/second.png)
+
 ![](https://sjj0330.github.io/smartwash/readmeImg/third.png)
 
    点击小助手电话，会调用手机上的拨号功能，可以电话咨询客服人员相关问题。
