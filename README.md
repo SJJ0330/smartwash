@@ -44,8 +44,8 @@
    
    清洗中的订单内容为某一订单下正在清洗的衣物以及所选洗衣门店的付款信息。
    
-![](https://sjj0330.github.io/smartwash/readmeImg/qingxizhong 1.png)
-![](https://sjj0330.github.io/smartwash/readmeImg/qingxizhong 2.png)
+![](https://sjj0330.github.io/smartwash/readmeImg/qingxizhong1.png)
+![](https://sjj0330.github.io/smartwash/readmeImg/qingxizhong2.png)
 
    **7. 待取订单**
    
