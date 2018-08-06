@@ -5,7 +5,7 @@
 ###### 具体页面内容在[首页](https://sjj0330.github.io/smartwash/homePage.html)中可以看到。
 ######首页的主要内容有以下几个模块：
  1. 账号信息
-![图片描述][1]
+![图片描述][smartwash/readmeImg/account.png]
     该模块内容包含用户的基本信息。当用户需要洗衣服时，首先点击申请洗衣袋，页面跳转到相应的页面，用户需要输入待洗涤的衣物件数，如下图所示：
 ![图片描述][2]
     默认应该输入的衣物件数的范围是[1,10]，如果用户没有输入数字，或者输入的数字超过默认的范围，点击确认按钮后，页面会弹出提示框，提醒用户输入正确的衣物件数。
@@ -35,23 +35,5 @@
 ![图片描述][18]
 ![图片描述][19]
     小助手图标只在页面回到顶部的时候显示，当页面向下滚动一定距离时该图标会自动消失。
-  [1]: /img/bVbeFMq
-  [2]: /img/bVbeFNT
-  [3]: /img/bVbeFPg
-  [4]: /img/bVbeFPO
-  [5]: /img/bVbeFSA
-  [6]: /img/bVbeFWl
-  [7]: /img/bVbeFWo
-  [8]: /img/bVbeFWw
-  [9]: /img/bVbeFWX
-  [10]: /img/bVbeFW0
-  [11]: /img/bVbeFYP
-  [12]: /img/bVbeFMB
-  [13]: /img/bVbeFY7
-  [14]: /img/bVbeFZs
-  [15]: /img/bVbeFZU
-  [16]: /img/bVbeFZ8
-  [17]: /img/bVbeF0a
-  [18]: /img/bVbeF0j
-  [19]: /img/bVbeF0k
+
 
