@@ -18,7 +18,7 @@
 
    默认应该输入的衣物件数的范围是[1,10]，如果用户没有输入数字，或者输入的数字超过默认的范围，点击确认按钮后，页面会弹出提示框，提醒用户输入正确的衣物件数。
    
-![](https://sjj0330.github.io/smartwash/readmeImg/right.png)
+![](https://sjj0330.github.io/smartwash/readmeImg/right.jpg)
 
    **3. 绑定洗衣袋**
    
@@ -36,29 +36,33 @@
    
    待确认订单为用户尚未确认付款的订单，页面内容包括该订单下待洗的衣物以及选择不同的洗衣门店需要支付的金额。
    
-![](https://sjj0330.github.io/smartwash/readmeImg/待确认top.png)
-![](https://sjj0330.github.io/smartwash/readmeImg/待确认bottom.png)
-![](https://sjj0330.github.io/smartwash/readmeImg/dqr2.png)
+![](https://sjj0330.github.io/smartwash/readmeImg/待确认top.jpg)
+
+![](https://sjj0330.github.io/smartwash/readmeImg/待确认bottom.jpg)
+
+![](https://sjj0330.github.io/smartwash/readmeImg/dqr2.jpg)
 
    **6. 清洗中订单**
    
    清洗中的订单内容为某一订单下正在清洗的衣物以及所选洗衣门店的付款信息。
    
-![](https://sjj0330.github.io/smartwash/readmeImg/qingxizhong 1.png)
-![](https://sjj0330.github.io/smartwash/readmeImg/qingxizhong 2.png)
+![](https://sjj0330.github.io/smartwash/readmeImg/qingxizhong 1.jpg)
+
+![](https://sjj0330.github.io/smartwash/readmeImg/qingxizhong 2.jpg)
 
    **7. 待取订单**
    
    衣物清洗完毕后被工作人员放回洗衣柜，订单状态转为待取，用户在待取订单列表中点击获取取衣条码，进入相应的订单中，获取到取衣条码后，在洗衣柜扫码口扫描取衣码，取出衣物，订单完成。
    
-![](https://sjj0330.github.io/smartwash/readmeImg/待取.png)
+![](https://sjj0330.github.io/smartwash/readmeImg/待取.jpg)
 
    **8. 历史订单**
    
    用户在历史订单列表中点击全部可以查看全部订单内容。  
    
 ![](https://sjj0330.github.io/smartwash/readmeImg/allOrders.png)
-![](https://sjj0330.github.io/smartwash/readmeImg/全部订单.png)
+
+![](https://sjj0330.github.io/smartwash/readmeImg/全部订单.jpg)
 
    **9. 广告栏**
    
@@ -83,7 +87,8 @@
    点击小助手电话，会调用手机上的拨号功能，可以电话咨询客服人员相关问题。
     
 ![](https://sjj0330.github.io/smartwash/readmeImg/t-sec.png)
-![](https://sjj0330.github.io/smartwash/readmeImg/phone.png)
+
+![](https://sjj0330.github.io/smartwash/readmeImg/phone.jpg)
 
    小助手图标只在页面回到顶部的时候显示，当页面向下滚动一定距离时该图标会自动消失。
 
